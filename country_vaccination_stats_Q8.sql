@@ -1,1 +1,0 @@
-SELECT Device_Type, REPLACE((RIGHT((LEFT(Stats_Access_Link,LENGTH(Stats_Access_Link)-6)),LENGTH(Stats_Access_Link)-12)),'/','') as Stats_Access_Link from database;
